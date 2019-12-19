@@ -13,3 +13,4 @@ class TestTest:
     def test_test(self):
         self.driver.get("http://html5geek.azurewebsites.net/")
         self.driver.find_element(By.LINK_TEXT, "Vuejs test page").click()
+        assert('Vue.js test home page' in self.driver.page_source)
