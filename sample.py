@@ -12,4 +12,4 @@ class GoogleTestCase(unittest.TestCase):
         self.assertIn('Google', self.browser.title)
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main(verbosity=2) 
